@@ -1,0 +1,272 @@
+#+TITLE: CV
+#+AUTHOR: Greg Nwosu
+#+OPTIONS: toc:nil
+* Summary
+I have [[https://osrc.dfm.io/gregnwosu/#languages][never stopped]] working on my [[https://github.com/gregnwosu][side projects]].
+* Current Interests
+My current interests are almost exclusively in FP, including:
+- Embedded DSL's using the Fixed Point Combinator in Haskell,
+- Scalaz
+- Haskell to Javascript compilation using Haste
+- Screen scraping with wreq and lenses
+- Parsec like Parsing
+- General chore automation, planning on creating Internet of things devices.
+- Parallel problems , STM.
+- Haskell FFI - recently created and open sourced the [[https://github.com/todbot/blink1/pull/199][blink1device Haskell FFI API]]
+Other hobbies include:
+- Cycling
+- studying civil litigation and human rights law
+- Zen Meditation.
+- I have also trained to teach adults and am a mentor to children learning to code at CoderDojo.
+* Commercial & Technical Experience
+** April 2015 - Present , Self Employed: Barclays Capital
+*** Big Data Engineer
+**** Responsibilities
+Ingesting Risk Data into Barclays BigData System
+Design meetings and code quality
+**** Technologies
+- Hadoop
+- Apache Spark
+- Apache Flume
+- Kafka
+- Protobuf/Paquet/Avro
+- Berkley DB
+**** Achievements
+- developed systems to ingest terabytes of risk profile data into hdfs
+- helped set up continous integration environment
+- helped mentor graduate intern
+- developed comprehensive testing using scalacheck test generation
+- integrated apache flume with Barclays inhouse datawarehouse format
+- re-engineered Barclays interface to Solace Messaging in Scala
+**** Skills Gained
+Apache Flume
+Apache Spark
+ScalaCheck
+Solace Messaging
+Kafka
+** September 2014 - Feburary 2015, Blinkbox Books
+*** Senior Scala Engineer
+**** Responsibilities
+- Design of and implementation of REST apis, in swagger
+- Automated verification of APIs against swagger in Tests
+- Wrote property based testing code for storage service
+- Interfacing with Microsoft Azure Storage Framework with Scala
+- Implementation of Scala code
+- Writing functional tests in Property Based BDD style
+  - ScalaCheck Property
+  - FlatSpec for BDD
+- Review and Merging of Pull Requests in Git hub
+- Diagnosis of issues with Continuous Integration and Deployment preparation
+- AMQP configuration
+**** Technologies
+- Scala
+- ScalaCheck
+- Spray.io
+- FlatSpec
+- Akka
+- Github, Git
+- Swagger
+- REST
+- HTTP
+- Azure
+- RabbitMQ AMQP
+**** Achievements
+- Designed , Developed and Deployed first version of REST endpoint for storage agnostic cloud based big data service,
+ with redundancy across storage providers
+- Improved Scala, Git, Github, REST knowledge, AMQP/RabbitMQ knowledge
+**** Skills Gained
+- AMQP/ RabbitMQ
+- REST
+- Spray.io/ Akka
+** August 2013 - August 2014 , RBS
+*** Infrastructure Developer
+Working with the maintenance and monitoring of a RBS’s big-data risk aggregation platform.
+I used a combination of
+- java 6
+- oracle coherence
+- Unix bash shell scripts
+- Haskell
+- Scala
+- Python
+I am responsible for
+- capacity planning
+- monitoring bandwidth throughput and latency to ensure smooth running of the platform.
+- Bidding for budget and rationalising legacy infrastructure.
+**** Responsibilities
+- Dev Ops
+- Capacity management
+- Infrastructure Bidding.
+- Technologies
+  - Java 6
+  - Python
+  - Scala
+  - Scalaz
+  - Continuous Integration (TeamCity)
+  - Dev-ops
+  - Coherence
+    - capacity planning
+    - performance profiling
+  - Scala-sbt
+  - ScalaCheck
+  - Scala-Specs
+**** Skills gained
+- Bidding
+- Budgeting
+- Coherence
+  - performance
+  - capacity analysis
+- FX
+- Git
+- Scala
+- Scalaz
+- Scala Check
+- Scala Specs
+- Python
+- Haskell
+- Devops
+- Scrum
+**** Achievements
+- Recently developed a £500k proposal for new infrastructure as a result of a profiling and capacity plan I put in place.
+- Presented plan to the RBS board and won approval for the spend for updating the nodes in a coherence cluster based on profiling,
+ coherence clustershock and datagram analysis measurements.
+- Dev-ops scripts written in Haskell
+- 6 months commercial advanced
+  - Scala
+  - Scalaz
+  - ScalaCheck
+** Jun 2010 – September 2013 , IG Group
+*** Direct Market Access  &  Smart Order Routing Java Developer
+**** Responsibilities
+- General FIX Connectivity
+- Instrument Downloads and Trading
+- Designed coded and accredited IG trading Gateways to be compliant with external exchange trading protocols.
+- Daily instrument downloads from exchanges
+- API client connectivity and accreditation
+- Smart Order Routing (SOR)
+  - tweaking SOR trading strategies
+  - Fault Diagnosis and SOR Order Resolution
+- certification with external companies
+- Last line of support for trading gateways and connectivity issues
+**** Technologies
+- Java 6
+- Java 7
+- LMAX disruptor
+- Multithreading
+- Linux
+- Oracle SQL
+- SQL Developer
+- Clover
+- Sonar
+- Maven2
+- Maven 3
+- Bamboo
+- Python 2.6
+- Python-Requests
+- BDD
+- JBehave
+- Domain Driven Design
+- Concurrent Programming Functional Programming
+- Low Latency Algorithms
+- Disruptor Pattern
+- Bash Shell Scripting
+**** Achievements
+- Designed and implemented the initial framework for IG’s Gateways
+- CHIX, Bats,Bloomberg,CommerzBank, UBS
+- LSE, (Including its winning LSE Millenium Gateway ,IG had no downtime on LSE launch compared to 80% of finance houses)
+- Designed and implemented Connectivity for Algorithmic Exposure Hedging System
+- Standardised a way to debug running processes across multiple firewalled SSL zones
+- Introduced BDD and Domain Driven Design to DMA Connectivity team
+**** Skills gained
+- Trading
+- FX
+- Securities
+- EasyMock Mockito
+- JBehave
+- SOR
+- Order Routing
+- Trading
+- FIX 4.2
+- FIX5SP2
+- Cameron
+- git-svn
+** Apr 2008 – June 2009 Java Developer, Stan James
+Working with a top gambling company; Developing a trading platform and desktop application for traders in sports betting.
+I played key roles in technical decision making, agile estimating, planning and retrospectives, as well as implementation, testing, refactoring and maintenance. Initially responsible for the inception of quants module for event pricing and later contributing all other modules.
+*** Skills gained
+- Agile Methodology
+- Scrum
+- Agile Estimating and Planning
+- Sports Betting
+- GWT
+- Java Swing
+- Selenium
+- Fitnesse
+- Oracle Coherence
+- Hibernate
+- Spring
+- core Java
+- JUnit
+- Weblogic
+- Oracle
+* Commercial & Technical Experience Summary
+| skill                     | years |
+|---------------------------+-------|
+| FIX                       |     2 |
+| Trading                   |     2 |
+| Leadership, Mentoring     |     2 |
+| Financial Reconcilliation |     2 |
+| Sports Betting            |     1 |
+| M-Commerce                |     1 |
+| Dev-ops                   |     1 |
+| Consultancy               |     3 |
+| Governmet                 |     3 |
+| Financial Markets         |     5 |
+| Securities, FX            |     3 |
+| Scala                     |     1 |
+| Spray                     |   0.5 |
+| AMQP                      |     1 |
+| REST                      |     1 |
+| Akka                      |   0.5 |
+| Github                    |     2 |
+| Scalaz                    |     1 |
+| Haskell                   |   0.3 |
+* Education
+** 2002-2003 University College London
+*** M.Sc.  Intelligent Systems (Incomplete)
+**** Course Content
+- Neural Networks
+- SVMs
+- Decision Trees
+- Learning theory
+- Maximum Likelihood Estimation
+- Bayesian Decision Theory
+- Hidden Markov Models
+- EM Algorithm
+- ICA
+- Clustering
+- Factor Analysis
+- Mixture Models
+- Monte Carlo Sampling Methods
+- Graphs
+- Bayesian Networks
+**** Software Research paper:
+Detecting Faces in Images a Survey of different approaches
+** 1994-1997 University of Birmingham
+*** 2.i B.Sc. Computer Science & Artificial Intelligence
+**** Course Content:
+- Concurrent and Object Orientated Programming in C++
+- TCP-IP
+- UNIX real-time shared Memory and Semaphores
+- Computer Graphics
+- Advanced Interface Design
+- Human Computer Interaction
+- Relational Database Theory
+- HTML Design / CGI Programming
+- Expert Systems
+- Neural Networks
+**** Software Research paper:
+Melody Composition using Web based Genetic Algorithms.
+** 1992-1994 St Francis Xavier College
+3 A-levels including A in Computer Science
+** 1987-1992 John Paul Secondary School
+9 GCSE’s Grade A-C
