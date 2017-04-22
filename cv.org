@@ -3,6 +3,7 @@
 #+OPTIONS: toc:nil
 * Summary
 I have [[https://osrc.dfm.io/gregnwosu/#languages][never stopped]] working on my [[https://github.com/gregnwosu][side projects]].
+Currently travelling in SE Asia touring places of cultural and technological interest.
 * Current Interests
 My current interests are almost exclusively in FP, including:
 - Embedded DSL's using the Fixed Point Combinator in Haskell,
@@ -265,8 +266,8 @@ I played key roles in technical decision making, agile estimating, planning and 
 |---------------------------+-------|
 | FIX                       |     2 |
 | Trading                   |     2 |
-| Leadership, Mentoring     |     2 |
-| Financial Reconcilliation |     2 |
+| Leadership, Mentoring     |     4 |
+| Financial Reconciliation |     2 |
 | Sports Betting            |     1 |
 | M-Commerce                |     1 |
 | Dev-ops                   |     1 |
@@ -274,14 +275,15 @@ I played key roles in technical decision making, agile estimating, planning and 
 | Governmet                 |     3 |
 | Financial Markets         |     5 |
 | Securities, FX            |     3 |
-| Scala                     |     1 |
+| Scala                     |     3 |
 | Spray                     |   0.5 |
 | AMQP                      |     1 |
 | REST                      |     1 |
-| Akka                      |   0.5 |
-| Github                    |     2 |
+| Akka                      |     1 |
+| Github/Gitlab/Git         |     3 |
 | Scalaz                    |     1 |
-| Haskell                   |   0.3 |
+| Haskell                   |     1 |
+| Python                    |     4 |
 * Education
 ** 2002-2003 University College London
 *** M.Sc.  Intelligent Systems (Incomplete)
