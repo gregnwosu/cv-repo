@@ -6,12 +6,12 @@ I have [[https://osrc.dfm.io/gregnwosu/#languages][never stopped]] working on my
 * Current Interests
 My current interests are almost exclusively in FP, including:
 - Embedded DSL's using the Fixed Point Combinator in Haskell,
-- Scalaz
-- Haskell to Javascript compilation using Haste
-- Screen scraping with wreq and lenses
+- [[http://www.purescript.org/][Purescript]] [[https://en.wikipedia.org/wiki/Single-page_application][S.P.A.]]'s
+- [[https://www.idris-lang.org/][Idris]]
+- Bayesian Methods for Data Analytics
+- Machine Learning , LSTM Generative Nets
 - Parsec like Parsing
 - General chore automation, planning on creating Internet of things devices.
-- Parallel problems , STM.
 - Haskell FFI - recently created and open sourced the [[https://github.com/todbot/blink1/pull/199][blink1device Haskell FFI API]]
 Other hobbies include:
 - Cycling
@@ -19,6 +19,58 @@ Other hobbies include:
 - Zen Meditation.
 - I have also trained to teach adults and am a mentor to children learning to code at CoderDojo.
 * Commercial & Technical Experience
+** July 2016 - April 2017, Self Employed: [[https://www.aimia.com/][Aimia]]
+*** Machine Learning Engineer
+**** Responsibilities
+Working within a new team for monetising Aimia's vast data repository.  My responsibilities initially
+were helping migrate a Aimia service to a more robust framework (EMR).
+(This wasn't within my remit; but as the new team was not yet properly formed , I rolled up my sleeves and helped out.)
+I then moved into co-designing and developing a platform to capture all the data needed for the machine learning techniques we wished to use.
+This completed, I then developed real-time ETL spark streams for data out of the legacy hive data-warehouse so data could easily be used in a variety of machine learning algorithims.
+Choosing parquet because of its schema evolution and performance properties.
+At this stage I was offered the job of lead engineer on the team which I turned down because my wife and children wanted to go travelling.
+I completed a brief prototype migration to  the [[http://answerrocket.com/][answer rocket]] platform so that some less technical analysts could evaluate natural language analytics.
+I spent my final months implementing machine learning algorithms with the datascientists such word2vec for domains and clustering the websites into categories.
+**** Technologies
+- [[https://aws.amazon.com/rds/][AWS]]
+  - [[https://aws.amazon.com/ec2/][EC2]]
+  - [[https://aws.amazon.com/emr/][EMR]]
+    - automation
+  - [[https://aws.amazon.com/s3/][S3]]
+  - [[http://jupyter.org/][Jupyter-Notebooks]]
+  - Lambda
+  - [[https://aws.amazon.com/redshift/][Redshift]]
+  - [[https://aws.amazon.com/rds/][RDS]]
+    - [[https://www.postgresql.org/][postgres]]
+  - Data visualisation
+    - [[https://matplotlib.org/][Matlplotlib]]
+- [[http://answerrocket.com/][AnswerRocket]]
+- [[https://hive.apache.org/][hive]]
+  - Hive performance tuning
+- [[http://www.scala-lang.org/][Scala 2.11.6 (for EMR compatibility)]]
+- [[https://www.haskell.org/][Haskell (GHC 8.0.1)]]
+- [[https://clojure.org/][clojure]]
+- [[http://spark.apache.org/][Spark 2.1.0 ( for EMR compatibility)]]
+- [[https://nlp.stanford.edu/projects/glove/][Glove (python implementation of word2vec)]]
+- [[https://pymc-devs.github.io/pymc/][PyMc (for Bayesian analysis)]]
+- [[https://parquet.apache.org/][Parquet]]
+- [[https://www.nginx.com/][Nginx]]
+- [[https://about.gitlab.com/][Gitlab]]
+**** Achievements
+- Helped complete migration from EC2 to EMR for greater resilience to failure
+- Implemented a HQL (Hive SQL) Parser in Haskell to auto generate Spark streaming schema from abstract syntax tree
+- Rejected offer of lead engineer role, to go travelling.
+- Engineered , Designed and developed real-time streaming for the majority of data-warehouse in to big-data platform in AWS
+- Helped set up continous integration environment
+- Implemented word2vec for cluster classification of websites
+- Made a prototype answer rocket system for an evaluation of natural language analytics
+**** Skills Gained
+AWS
+Clojure
+Nginx
+Docker
+Kafka
+Bayesian Analysis (PyMC)
 ** April 2015 - Present , Self Employed: Barclays Capital
 *** Big Data Engineer
 **** Responsibilities
