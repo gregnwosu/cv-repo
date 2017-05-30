@@ -72,7 +72,7 @@ Nginx
 Docker
 Kafka
 Bayesian Analysis (PyMC)
-** April 2015 - Present , Self Employed: Barclays Capital
+** April 2015 - June 2016, Self Employed: Barclays Capital
 *** Big Data Engineer
 **** Responsibilities
 Ingesting Risk Data into Barclays BigData System
