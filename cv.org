@@ -82,7 +82,7 @@ Design meetings and code quality
 - Apache Spark
 - Apache Flume
 - Kafka
-- Protobuf/Paquet/Avro
+- Protobuf/Parquet/Avro
 - Berkley DB
 **** Achievements
 - developed systems to ingest terabytes of risk profile data into hdfs
@@ -131,7 +131,7 @@ Kafka
 - AMQP/ RabbitMQ
 - REST
 - Spray.io/ Akka
-** August 2013 - August 2014 , RBS
+** August 2013 - August 2014, RBS
 *** Infrastructure Developer
 Working with the maintenance and monitoring of a RBS’s big-data risk aggregation platform.
 I used a combination of
@@ -187,7 +187,7 @@ I am responsible for
   - Scala
   - Scalaz
   - ScalaCheck
-** Jun 2010 – September 2013 , IG Group
+** Jun 2010 – September 2013, IG Group
 *** Direct Market Access  &  Smart Order Routing Java Developer
 **** Responsibilities
 - General FIX Connectivity
