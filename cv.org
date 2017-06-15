@@ -23,7 +23,7 @@ Other hobbies include:
 ** July 2016 - April 2017, Self Employed: [[https://www.aimia.com/][Aimia]]
 *** Machine Learning Engineer
 **** Responsibilities
-Working within a new team for monetising Aimia's vast data repository.  My responsibilities initially
+Working within a new team for monetising Aimia's vast data repository. My responsibilities initially
 were helping migrate a Aimia service to a more robust framework (EMR).
 (This wasn't within my remit; but as the new team was not yet properly formed , I rolled up my sleeves and helped out.)
 I then moved into co-designing and developing a platform to capture all the data needed for the machine learning techniques we wished to use.
@@ -225,7 +225,7 @@ I am responsible for
 **** Achievements
 - Designed and implemented the initial framework for IG’s Gateways
 - CHIX, Bats,Bloomberg,CommerzBank, UBS
-- LSE, (Including its winning LSE Millenium Gateway ,IG had no downtime on LSE launch compared to 80% of finance houses)
+- LSE, (Including its winning LSE Millennium Gateway ,IG had no downtime on LSE launch compared to 80% of finance houses)
 - Designed and implemented Connectivity for Algorithmic Exposure Hedging System
 - Standardised a way to debug running processes across multiple firewalled SSL zones
 - Introduced BDD and Domain Driven Design to DMA Connectivity team
@@ -267,7 +267,7 @@ I played key roles in technical decision making, agile estimating, planning and 
 | FIX                       |     2 |
 | Trading                   |     2 |
 | Leadership, Mentoring     |     4 |
-| Financial Reconciliation |     2 |
+| Financial Reconciliation  |     2 |
 | Sports Betting            |     1 |
 | M-Commerce                |     1 |
 | Dev-ops                   |     1 |
@@ -276,6 +276,10 @@ I played key roles in technical decision making, agile estimating, planning and 
 | Financial Markets         |     5 |
 | Securities, FX            |     3 |
 | Scala                     |     3 |
+| Big Data                  |     3 |
+| Machine Learning          |     1 |
+| Spark                     |     2 |
+| Haskell                   |     2 |
 | Spray                     |   0.5 |
 | AMQP                      |     1 |
 | REST                      |     1 |
@@ -286,7 +290,7 @@ I played key roles in technical decision making, agile estimating, planning and 
 | Python                    |     4 |
 * Education
 ** 2002-2003 University College London
-*** M.Sc.  Intelligent Systems (Incomplete)
+*** M.Sc. Intelligent Systems (Incomplete)
 **** Course Content
 - Neural Networks
 - SVMs
