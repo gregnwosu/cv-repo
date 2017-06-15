@@ -7,7 +7,7 @@ Currently travelling in SE Asia touring places of cultural and technological int
 * Current Interests
 My current interests are almost exclusively in FP, including:
 - Embedded DSL's using the Fixed Point Combinator in Haskell,
-- [[http://www.purescript.org/][Purescript]] [[https://en.wikipedia.org/wiki/Single-page_application][S.P.A.]]'s
+- [[http://www.purescript.org/][Purescript]] [[https:  (add-to-list 'exec-path "/Users/greg/lib/anaconda2/bin" )//en.wikipedia.org/wiki/Single-page_application][S.P.A.]]'s
 - [[https://www.idris-lang.org/][Idris]]
 - Bayesian Methods for Data Analytics
 - Machine Learning , LSTM Generative Nets
@@ -204,7 +204,7 @@ I am responsible for
 - Java 6
 - Java 7
 - LMAX disruptor
-- Multithreading
+- Multi-threading
 - Linux
 - Oracle SQL
 - SQL Developer
