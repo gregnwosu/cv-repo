@@ -2,12 +2,23 @@
 #+AUTHOR: Greg Nwosu
 #+OPTIONS: toc:nil
 * Summary
-I have [[https://osrc.dfm.io/gregnwosu/#languages][never stopped]] working on my [[https://github.com/gregnwosu][side projects]].
-Currently travelling in SE Asia touring places of cultural and technological interest.
+I am a technology enthusiast with a lot of experience in functional
+programming and big data technologies.
+I’ve some commercial experience in machine learning but the majority
+of my experience is from [[https://github.com/gregnwosu][personal projects]] and online courses.
+I’ve just arrived back after travelling for 6 months in SE Asia
+touring places of cultural and technological interest with my
+family. 
+I am [[https://www.linkedin.com/feed/update/urn:li:activity:6073160702284091392][certified]] in machine learning from Stanford University’s
+[[https://www.coursera.org/learn/machine-learning][course]]. 
+I’m currently half way through [[https://classroom.udacity.com/nanodegrees/nd101][Udacity’s Deep Learning Foundation
+Course]] with a view to complete the [[https://www.udacity.com/course/self-driving-car-engineer-nanodegree--nd013][Udacity’s Self Driving Car
+NanoDegree]] next year.
+My goal is to achieve the [[http://beckwords.com/wp-content/uploads/2014/04/cat-riding-a-fire-breathing-unicorn-16414-1440x900.jpg][rare]] position of being adept in machine learning and data science together with my current skills of big data engineering and ETL.
 * Current Interests
 My current interests are almost exclusively in FP, including:
 - Embedded DSL's using the Fixed Point Combinator in Haskell,
-- [[http://www.purescript.org/][Purescript]] [[https:  (add-to-list 'exec-path "/Users/greg/lib/anaconda2/bin" )//en.wikipedia.org/wiki/Single-page_application][S.P.A.]]'s
+- [[http://www.purescript.org/][Purescript]] [[https:  (add-to-list 'exec-path "/Users/greg/lib/anaconda2/bin" )//en.wikipedia.org/wiki/Single-page_application][S.P.A.]]'s 
 - [[https://www.idris-lang.org/][Idris]]
 - Bayesian Methods for Data Analytics
 - Machine Learning , LSTM Generative Nets
@@ -20,6 +31,9 @@ Other hobbies include:
 - Zen Meditation.
 - I have also trained to teach adults and am a mentor to children learning to code at CoderDojo.
 * Commercial & Technical Experience
+  :PROPERTIES:
+  :CUSTOM_ID: commercial experience
+  :END:
 ** July 2016 - April 2017, Self Employed: [[https://www.aimia.com/][Aimia]]
 *** Machine Learning Engineer
 **** Responsibilities
@@ -73,7 +87,7 @@ Docker
 Kafka
 Bayesian Analysis (PyMC)
 ** April 2015 - June 2016, Self Employed: Barclays Capital
-*** Big Data Engineer
+*** Big Data ETL Engineer
 **** Responsibilities
 Ingesting Risk Data into Barclays BigData System
 Design meetings and code quality
@@ -97,7 +111,7 @@ Apache Spark
 ScalaCheck
 Solace Messaging
 Kafka
-** September 2014 - Feburary 2015, Blinkbox Books
+** September 2014 - February 2015, Blinkbox Books
 *** Senior Scala Engineer
 **** Responsibilities
 - Design of and implementation of REST apis, in swagger
@@ -261,33 +275,6 @@ I played key roles in technical decision making, agile estimating, planning and 
 - JUnit
 - Weblogic
 - Oracle
-* Commercial & Technical Experience Summary
-| skill                     | years |
-|---------------------------+-------|
-| FIX                       |     2 |
-| Trading                   |     2 |
-| Leadership, Mentoring     |     4 |
-| Financial Reconciliation  |     2 |
-| Sports Betting            |     1 |
-| M-Commerce                |     1 |
-| Dev-ops                   |     1 |
-| Consultancy               |     3 |
-| Governmet                 |     3 |
-| Financial Markets         |     5 |
-| Securities, FX            |     3 |
-| Scala                     |     3 |
-| Big Data                  |     3 |
-| Machine Learning          |     1 |
-| Spark                     |     2 |
-| Haskell                   |     2 |
-| Spray                     |   0.5 |
-| AMQP                      |     1 |
-| REST                      |     1 |
-| Akka                      |     1 |
-| Github/Gitlab/Git         |     3 |
-| Scalaz                    |     1 |
-| Haskell                   |     1 |
-| Python                    |     4 |
 * Education
 ** 2002-2003 University College London
 *** M.Sc. Intelligent Systems (Incomplete)
