@@ -4,24 +4,27 @@
 * Summary
 I am a technology enthusiast with a lot of experience in functional
 programming and big data technologies.
+I've worked with many different industries primarily doing
+Agile/Scrum. I've pioneered BDD/TDD and Continuous Delivery in some of
+my posts and made the teams that I worked with more productive.
+I have deep knowledge of Agile/Scrum, I've attended numerous
 I’ve some commercial experience in machine learning but the majority
 of my experience is from [[https://github.com/gregnwosu][personal projects]] and online courses.
 I’ve just arrived back after travelling for 6 months in SE Asia
 touring places of cultural and technological interest with my
-family. 
-I am [[https://www.linkedin.com/feed/update/urn:li:activity:6073160702284091392][certified]] in machine learning from Stanford University’s
-[[https://www.coursera.org/learn/machine-learning][course]]. 
-I’m currently half way through [[https://classroom.udacity.com/nanodegrees/nd101][Udacity’s Deep Learning Foundation
+family. I am [[https://www.linkedin.com/feed/update/urn:li:activity:6073160702284091392][certified]] in machine learning from Stanford University’s
+[[https://www.coursera.org/learn/machine-learning][course]]. I’m currently half way through [[https://classroom.udacity.com/nanodegrees/nd101][Udacity’s Deep Learning Foundation
 Course]] with a view to complete the [[https://www.udacity.com/course/self-driving-car-engineer-nanodegree--nd013][Udacity’s Self Driving Car
-NanoDegree]] next year.
-My goal is to achieve the [[http://beckwords.com/wp-content/uploads/2014/04/cat-riding-a-fire-breathing-unicorn-16414-1440x900.jpg][rare]] position of being adept in machine learning and data science together with my current skills of big data engineering and ETL.
+NanoDegree]] next year. My goal is to achieve the [[http://beckwords.com/wp-content/uploads/2014/04/cat-riding-a-fire-breathing-unicorn-16414-1440x900.jpg][rare]] position of being
+adept in machine learning and data science together with my current
+skills of big data engineering and ETL.
 * Current Interests
 My current interests are almost exclusively in FP, including:
-- Embedded DSL's using the Fixed Point Combinator in Haskell,
-- [[http://www.purescript.org/][Purescript]] [[https:  (add-to-list 'exec-path "/Users/greg/lib/anaconda2/bin" )//en.wikipedia.org/wiki/Single-page_application][S.P.A.]]'s 
-- [[https://www.idris-lang.org/][Idris]]
-- Bayesian Methods for Data Analytics
-- Machine Learning , LSTM Generative Nets
+- Intermediate Advanced [[https://github.com/gregnwosu/haskellbook][Haskell programming]]
+- [[http://www.purescript.org/][Purescript]] [[https:  (add-to-list 'exec-path "/Users/greg/lib/anaconda2/bin" )//en.wikipedia.org/wiki/Single-page_application][S.P.A.]]'s/ [[https://www.idris-lang.org/][Idris]] (when I have time)
+- [[https://bartoszmilewski.com/2014/10/28/category-theory-for-programmers-the-preface/][category theory]]
+- Bayesian Methods for Data Analytic.
+- Machine Learning , LSTM Generative Nets.
 - Parsec like Parsing
 - General chore automation, planning on creating Internet of things devices.
 - Haskell FFI - recently created and open sourced the [[https://github.com/todbot/blink1/pull/199][blink1device Haskell FFI API]]
@@ -34,6 +37,7 @@ Other hobbies include:
   :PROPERTIES:
   :CUSTOM_ID: commercial experience
   :END:
+
 ** July 2016 - April 2017, Self Employed: [[https://www.aimia.com/][Aimia]]
 *** Machine Learning Engineer
 **** Responsibilities
@@ -72,6 +76,7 @@ I spent my final months implementing machine learning algorithms with the datasc
 - [[https://www.nginx.com/][Nginx]]
 - [[https://about.gitlab.com/][Gitlab]]
 **** Achievements
+- Set up Continuous Integration and Unit Testing Infrastructure
 - Helped complete migration from EC2 to EMR for greater resilience to failure
 - Implemented a HQL (Hive SQL) Parser in Haskell to auto generate Spark streaming schema from abstract syntax tree
 - Rejected offer of lead engineer role, to go travelling.
@@ -99,6 +104,7 @@ Design meetings and code quality
 - Protobuf/Parquet/Avro
 - Berkley DB
 **** Achievements
+- Set up Continuous Integration and Unit Testing Infrastructure
 - developed systems to ingest terabytes of risk profile data into hdfs
 - helped set up continous integration environment
 - helped mentor graduate intern
@@ -193,6 +199,7 @@ I am responsible for
 - Devops
 - Scrum
 **** Achievements
+- learned scrum/agile in depth here, gained in depth knowledge of scrum. 
 - Recently developed a £500k proposal for new infrastructure as a result of a profiling and capacity plan I put in place.
 - Presented plan to the RBS board and won approval for the spend for updating the nodes in a coherence cluster based on profiling,
  coherence clustershock and datagram analysis measurements.
@@ -202,7 +209,7 @@ I am responsible for
   - Scalaz
   - ScalaCheck
 ** Jun 2010 – September 2013, IG Group
-*** Direct Market Access  &  Smart Order Routing Java Developer
+*** Direct Market Access & Smart Order Routing Java Developer
 **** Responsibilities
 - General FIX Connectivity
 - Instrument Downloads and Trading
@@ -237,6 +244,7 @@ I am responsible for
 - Disruptor Pattern
 - Bash Shell Scripting
 **** Achievements
+- Introduced BDD/TDD to team and increased productivity by 20%
 - Designed and implemented the initial framework for IG’s Gateways
 - CHIX, Bats,Bloomberg,CommerzBank, UBS
 - LSE, (Including its winning LSE Millennium Gateway ,IG had no downtime on LSE launch compared to 80% of finance houses)
