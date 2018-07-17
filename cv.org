@@ -2,32 +2,26 @@
 #+AUTHOR: Greg Nwosu
 #+OPTIONS: toc:nil
 * Summary
-I am a technology enthusiast with a lot of experience in functional
-programming and big data technologies.
-I've worked with many different industries primarily doing
-Agile/Scrum. I've pioneered BDD/TDD and Continuous Delivery in some of
+I've pioneered BDD/TDD and Continuous Delivery in some of
 my posts and made the teams that I worked with more productive.
-I have deep knowledge of Agile/Scrum, I've attended numerous
+I have deep knowledge of Agile/Scrum.
 I’ve some commercial experience in machine learning but the majority
 of my experience is from [[https://github.com/gregnwosu][personal projects]] and online courses.
-I’ve just arrived back after travelling for 6 months in SE Asia
-touring places of cultural and technological interest with my
-family. I am [[https://www.linkedin.com/feed/update/urn:li:activity:6073160702284091392][certified]] in machine learning from Stanford University’s
-[[https://www.coursera.org/learn/machine-learning][course]]. I’m currently half way through [[https://classroom.udacity.com/nanodegrees/nd101][Udacity’s Deep Learning Foundation
-Course]] with a view to complete the [[https://www.udacity.com/course/self-driving-car-engineer-nanodegree--nd013][Udacity’s Self Driving Car
-NanoDegree]] next year. My goal is to achieve the [[http://beckwords.com/wp-content/uploads/2014/04/cat-riding-a-fire-breathing-unicorn-16414-1440x900.jpg][rare]] position of being
+I am [[https://www.linkedin.com/feed/update/urn:li:activity:6073160702284091392][certified]] in machine learning from Stanford University’s
+[[https://www.coursera.org/learn/machine-learning][course]]. I’m a [[https://s3-us-west-2.amazonaws.com/udacity-printer/production/certificates/4032c6ab-8874-4854-abfd-3fc33dd75e07.pdf][graduate]] of [[https://classroom.udacity.com/nanodegrees/nd101] Udacity’s Deep Learning Foundation
+Course]] and now I'm half way through  the [[https://www.udacity.com/course/self-driving-car-engineer-nanodegree--nd013][Udacity’s Self Driving Car
+NanoDegree]]. My goal is to achieve the position of being
 adept in machine learning and data science together with my current
 skills of big data engineering and ETL.
 * Current Interests
 My current interests are almost exclusively in FP, including:
 - Intermediate Advanced [[https://github.com/gregnwosu/haskellbook][Haskell programming]]
-- [[http://www.purescript.org/][Purescript]] [[https:  (add-to-list 'exec-path "/Users/greg/lib/anaconda2/bin" )//en.wikipedia.org/wiki/Single-page_application][S.P.A.]]'s/ [[https://www.idris-lang.org/][Idris]] (when I have time)
+- mypy
+- deep learning
 - [[https://bartoszmilewski.com/2014/10/28/category-theory-for-programmers-the-preface/][category theory]]
 - Bayesian Methods for Data Analytic.
 - Machine Learning , LSTM Generative Nets.
 - Parsec like Parsing
-- General chore automation, planning on creating Internet of things devices.
-- Haskell FFI - recently created and open sourced the [[https://github.com/todbot/blink1/pull/199][blink1device Haskell FFI API]]
 Other hobbies include:
 - Cycling
 - studying civil litigation and human rights law
@@ -37,19 +31,66 @@ Other hobbies include:
   :PROPERTIES:
   :CUSTOM_ID: commercial experience
   :END:
-
+** June 2017 - Present: [[http://mydrivesolutions.com][MyDrive]]
+*** Senior Data Engineer
+**** Responsibilities
+Design and implementation of MyDrive Data Lake
+ETL process
+Ad-Hoc Data Cleansing for DataScientists
+**** Technologies
+- [[https://aws.amazon.com/rds/][AWS]]
+  - [[https://aws.amazon.com/ec2/][EC2]]
+  - [[https://aws.amazon.com/emr/][EMR]]
+    - automation
+  - [[https://aws.amazon.com/s3/][S3]]
+  - [[http://jupyter.org/][Jupyter-Notebooks]]
+  - Lambda
+  - [[https://aws.amazon.com/redshift/][Redshift]]
+  - [[https://aws.amazon.com/rds/][RDS]]
+    - [[https://www.postgresql.org/][postgres]]
+  - Data visualisation
+    - [[https://matplotlib.org/][Matlplotlib]]
+- [[http://answerrocket.com/][AnswerRocket]]
+- [[https://hive.apache.org/][hive]]
+  - Hive performance tuning
+- [[http://www.scala-lang.org/][Scala 2.11.6 (for EMR compatibility)]]
+- [[https://www.haskell.org/][Haskell (GHC 8.0.1)]]
+- [[https://clojure.org/][clojure]]
+- [[http://spark.apache.org/][Spark 2.1.0 ( for EMR compatibility)]]
+- [[https://nlp.stanford.edu/projects/glove/][Glove (python implementation of word2vec)]]
+- [[https://pymc-devs.github.io/pymc/][PyMc (for Bayesian analysis)]]
+- [[https://parquet.apache.org/][Parquet]]
+- [[https://www.nginx.com/][Nginx]]
+- [[https://about.gitlab.com/][Gitlab]]
+**** Achievements
+- Co-Design and implementation of a Data Lake for organising the
+  ingestion and processing locations of OLTP /OLAP  data streams in
+  scala/spark , airflow
+- Audit of all of MyDrive data on S3 for GDPR , currently around 30TB
+- Introduced the best industry standards for python development; via: type-based Python (mypy) better virtualization (pipenv)
+  and a stronger project framework
+- began to learn some production level terraform for cloud agnostic infrastructure
+**** Skills Gained
+- AWS Lambda
+- AWS DMS
+- AWS Athena
+- AWS Glue
+- Apache Airflow
+- AWS ECS
+- AWS ECR
+- AWS Kinesis
+- Mypy
+- Terraform
+- Boto3
 ** July 2016 - April 2017, Self Employed: [[https://www.aimia.com/][Aimia]]
 *** Machine Learning Engineer
 **** Responsibilities
 Working within a new team for monetising Aimia's vast data repository. My responsibilities initially
 were helping migrate a Aimia service to a more robust framework (EMR).
-(This wasn't within my remit; but as the new team was not yet properly formed , I rolled up my sleeves and helped out.)
 I then moved into co-designing and developing a platform to capture all the data needed for the machine learning techniques we wished to use.
 This completed, I then developed real-time ETL spark streams for data out of the legacy hive data-warehouse so data could easily be used in a variety of machine learning algorithims.
 Choosing parquet because of its schema evolution and performance properties.
-At this stage I was offered the job of lead engineer on the team which I turned down because my wife and children wanted to go travelling.
 I completed a brief prototype migration to  the [[http://answerrocket.com/][answer rocket]] platform so that some less technical analysts could evaluate natural language analytics.
-I spent my final months implementing machine learning algorithms with the datascientists such word2vec for domains and clustering the websites into categories.
 **** Technologies
 - [[https://aws.amazon.com/rds/][AWS]]
   - [[https://aws.amazon.com/ec2/][EC2]]
@@ -83,7 +124,7 @@ I spent my final months implementing machine learning algorithms with the datasc
 - Engineered , Designed and developed real-time streaming for the majority of data-warehouse in to big-data platform in AWS
 - Helped set up continous integration environment
 - Implemented word2vec for cluster classification of websites
-- Made a prototype answer rocket system for an evaluation of natural language analytics
+- Made a prototype answer rocket database for an evaluation of natural language analytics
 **** Skills Gained
 AWS
 Clojure
@@ -199,7 +240,7 @@ I am responsible for
 - Devops
 - Scrum
 **** Achievements
-- learned scrum/agile in depth here, gained in depth knowledge of scrum. 
+- learned scrum/agile in depth here, gained in depth knowledge of scrum.
 - Recently developed a £500k proposal for new infrastructure as a result of a profiling and capacity plan I put in place.
 - Presented plan to the RBS board and won approval for the spend for updating the nodes in a coherence cluster based on profiling,
  coherence clustershock and datagram analysis measurements.
