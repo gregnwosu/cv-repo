@@ -2,35 +2,35 @@
 #+AUTHOR: Greg Nwosu
 #+OPTIONS: toc:nil
 * Summary
-I'm known for having a can do attitude, I find solutions where most
-others cant.
+I'm known for having a can-do attitude, I find solutions where most
+others can't.
 I often pioneer new approaches for teams to get around issues and find
 approaches to issues that most see as unsurmountable.
-I'm friendly and fit in , I bring up the quality of the less
+I'm friendly and fit in, I bring up the quality of the less
 experienced and love to learn from anyone that I can.
 
-I have deep knowledge of Agile/Scrum, I've been on many teams in the
-past and draw on this experience of what works to synthesise a way
+I have deep knowledge of Agile/Scrum, and I've been on many teams in the
+past and draw on this experience of what works to synthesize a way
 forward when things get difficult.
 
 I am [[https://www.linkedin.com/feed/update/urn:li:activity:6073160702284091392][certified]] in machine learning from Stanford University’s
 [[https://www.coursera.org/learn/machine-learning][course]]. I’m a [[https://s3-us-west-2.amazonaws.com/udacity-printer/production/certificates/4032c6ab-8874-4854-abfd-3fc33dd75e07.pdf][graduate]] of [[https://classroom.udacity.com/nanodegrees/nd101] Udacity’s Deep Learning Foundation
-Course]] and now I'm half way through  the [[https://learn.udacity.com/nanodegrees/nd893/][Udacity’s Deep
+Course]] and now I'm halfway through  the [[https://learn.udacity.com/nanodegrees/nd893/][Udacity’s Deep
 Reinforcement Learning NanoDegree]]. My goal is to continue in the position of being
-adept in cutting edge machine learning techniques and data science together with my current
-skills of big data engineering and ETL.
+adept in cutting-edge machine learning techniques and data science together with my current
+skills in big data engineering and ETL.
 * Current Interests
 
-- Algo-Trading, wrote an a home project that analyses candles and recommends
+- Algo-Trading, wrote a home project that analyses candles and recommends
   trades based on technical analysis.
-- Arbitrage: wrote a system that uses , bellman ford algorithm to find
+- Arbitrage: wrote a system that uses, bellman ford algorithm to find
   negative weight cycles in currencies so I can make money by
   transferring money between currencies at my bank.
 - Intermediate Advanced [[https://github.com/gregnwosu/haskellbook][Haskell programming]]
 - deep reinforcement learning.
 - [[https://bartoszmilewski.com/2014/10/28/category-theory-for-programmers-the-preface/][category theory]]
 - Bayesian Methods for Data Analytics.
-- Machine Learning , started playing with Large Language Models
+- Machine Learning, started playing with Large Language Models
 Other hobbies include:
 - Cycling
 - Callisthenics
@@ -44,36 +44,36 @@ Other hobbies include:
 ** October 2021 - Present : [[http://shell.com][Shell]]
 *** Responsibilities
 - Front Office , Author and Designer of [[https://app.powerbi.com/groups/me/apps/ab5daed7-88c8-4b35-9691-71bb9e2d751c/reports/22a243ae-1a44-4ec7-b9f3-5111615a3c2b/ReportSection?ctid=db1e96a8-a3da-442a-930b-235cac24cd5c&bookmarkGuid=Bookmark858b0d79a416a133d321][Power Purchase Agreements Reconciliation Tool]]  Technical
-Lead Engineer, Designer , Developer
+Lead Engineer, Designer, Developer
 - Front Office , [[https://adb-8189235268511358.18.azuredatabricks.net/?o=8189235268511358#notebook/4039834138178088/dashboard/1665125115797297/present][Power Purchase Agreement Inter-book Transfer Tool]] Lead Engineer,
   Designer, developer
 *** Technologies
-Azure Data Factory, Azure Devops , Databricks , Pyspark , Databricks DeltaLake,
+Azure Data Factory, Azure DevOps, Databricks, Pyspark, Databricks DeltaLake,
 Databricks DeltaLive, Databricks Auto-loader
 *** Achievements:
-- Wrote a spark UDF that decompresses zip files , zip decompression is
-  not supported in spark , but I managed to support it, without having
+- Wrote a spark UDF that decompresses zip files, zip decompression is
+  not supported in spark, but I managed to support it, without having
   to write to temporary storage.
 
 - (re)Wrote [[https://app.powerbi.com/groups/me/apps/ab5daed7-88c8-4b35-9691-71bb9e2d751c/reports/22a243ae-1a44-4ec7-b9f3-5111615a3c2b/ReportSection?ctid=db1e96a8-a3da-442a-930b-235cac24cd5c&bookmarkGuid=Bookmark858b0d79a416a133d321][a reconciliation tool to reconcile Power Purchase Contracts]] (PPAs)
-between Shell and a third party broker within the first 6 months of joining. Currently the system is used directly by traders on its newly formed power
-trading desk. The system provides near real-time tracking of PPAs as
-from broker order books through shell middle-ware and into the shell
+between Shell and a third-party broker within the first 6 months of joining. Currently, the system is used directly by traders on its newly formed power
+trading desk. The system provides near real-time tracking of PPAs 
+from broker order books through shell middle-ware and into the Shell
 order books.  The system achieved 4 x9's up-time and became so reliable it was moved to a "run and
 support" model. The system includes data-quality analysis, slicers and
-dice controls, summaries, drill-down and graphical visualisations.
+dice controls, summaries, drill-down and graphical visualizations.
 
-- The existing system for transferring PPAs from the broker to shell
-  was slow and unreliable. Delivered [[https://adb-8189235268511358.18.azuredatabricks.net/?o=8189235268511358#notebook/4039834138178088/dashboard/1665125115797297/present][a real time streaming support system Inter-book Transfer Tool
+- The existing system for transferring PPAs from the broker to Shell
+  was slow and unreliable. Delivered [[https://adb-8189235268511358.18.azuredatabricks.net/?o=8189235268511358#notebook/4039834138178088/dashboard/1665125115797297/present][a real-time streaming support system Inter-book Transfer Tool
 for transferring trades]]
 between an external PPA broker and Shell. The system
-system generates a VWAP curve from energy price forecast data and executes orders
-to cover predicted liabilities of third party renewable energy contracts. The system
-uses latest databricks DeltaLake format for full audit coverage
-overtime. It is possible to view query the state of the system at any
+generates a VWAP curve from energy price forecast data and executes orders
+to cover predicted liabilities of third-party renewable energy contracts. The system
+uses Databricks DeltaLake format for full audit coverage
+over time. It is possible to view and query the state of the system at any
 time in the past.
 The new Power Purchase Inter-Book transfer tool leverages DeltaLive and Databricks auto
-loader for real time streaming updates, so that traders can
+loader for real-time streaming updates, so that traders can
 ensure timely transfer of PPAs to the Shell order book.
 
 ** March 2021 - September 2021 : [[https://www.gousto.co.uk/][Gousto]]
@@ -85,41 +85,41 @@ Spark, Databrick Delta Lake,
 *** Airflow, Kubernetes
 *** Achievements:
 - Wrote a proof of concept to show how to attach hooks to spark streams
-in python, to enable automatically alerting on ingestion failure of a
+in python, to enable automatic alerting on ingestion failure of a
 streaming process.
--- Proposed two ways , one of which used the sparks internal python java bridge.
-- introduced BDD to help BA’s verify business logic.
+-- Proposed two ways, one of which used the sparks internal python java bridge.
+- introduced BDD to help BAs verify business logic.
 - Used AWS DMS Service to safely migrate data from databases into AWS S3
 storage in real-time.
 ** March 2019 - March 2021 : [[http://shell.com][Shell]]
 *** Responsibilities
-**** Part of the SWAT (SoftWare /Analytics Team) team in agile hub tasked with improving the architectural approach
-and development of extracting business value (monetising) of data from under achieving shell projects. Projects usually exist for 5
+**** Part of the SWAT (SoftWare /Analytics Team) team in The Agile Hub tasked with improving the architectural approach
+and development of extracting business value (monetizing) of data from underachieving shell projects. Projects usually exist for 5
 - 7 weeks. Projects typically deliver technical advisory reports and a proof of concept.
-**** Cargo Tracking, wrote software for front desk trading analysts that provides consensus
+**** Cargo Tracking wrote software for front desk trading analysts that provide consensus
 on the location of crude and distillates from various providers.
 *** Technologies
-Helm Charts, pyspark, Azure Data Factory, Azure Cosmos, AKS,
+Helm Charts, Pyspark, Azure Data Factory, Azure Cosmos, AKS,
 Airflow, Kubernetes
 *** Achievements:
-- Led a SWAT team to increase performance of pricing reports, we managed to render a
+- Led a SWAT team to increase the performance of pricing reports, we managed to render a
 report in 15 seconds that was previously taking 15 minutes.
 Deployed proof of concept airflow pipeline in Kubernetes that also has jobs that run in
 AKS
-- mentored junior members in development practice , GitHub, unit testing , code quality.
+- mentored junior members in development practice, GitHub, unit testing, code-quality.
 - trained remote developers in Github, Git
 - wrote a data pipeline that ingests from google sheets which enabled
   business analysts to collaborate on cargo tracking reference
 - introduced the team to event-driven architecture, which resulted in
   10x speed of data processing.
-- used graph algorithms (using networkx in python ) to enable
-visualisation and therefore aid simplify  complex
+- used graph algorithms (using networks in python ) to enable
+visualization and therefore aid simplify  complex
 decision paths in business logic
-introduced BDD to help BA’s verify business logic.
+introduced BDD to help BAs verify business logic.
 ** September 2018 – March 2019: [[http://quantexa.com][Quantexa]]
 *** Senior Data Engineer
 *** Responsibilities
-- Mentoring architecture and quality refactoring of Quantexa’s award winning analysis
+- Mentoring architecture and quality refactoring of Quantexa’s award-winning analysis
 and fraud detection platform.
 - A team member responsible for accelerating the code quality of Quantexa implementations as they are rolled out onto banks; my duties
 include code reviews of client implementations and code quality and improvement of
@@ -135,8 +135,8 @@ the core product.
 - Git-lab
 - typesafe config
 *** Achievements
-- Redesign and refactoring of the core scoring framework.
-- Introduced Property based testing using ScalaCheck to cover bring
+- Redesign and refactoring the core scoring framework.
+- Introduced property-based testing using ScalaCheck to bring
 test coverage over 90%
 - Implementation of typesafe config for reducing release errors due to misconfiguration
 ** June 2017 - January 2019: [[http://mydrivesolutions.com][MyDrive]]
@@ -156,7 +156,7 @@ Ad-Hoc Data Cleansing for DataScientists
   - [[https://aws.amazon.com/redshift/][Redshift]]
   - [[https://aws.amazon.com/rds/][RDS]]
     - [[https://www.postgresql.org/][postgres]]
-  - Data visualisation
+  - Data visualization
     - [[https://matplotlib.org/][Matlplotlib]]
 - [[http://answerrocket.com/][AnswerRocket]]
 - [[https://hive.apache.org/][hive]]
@@ -171,13 +171,13 @@ Ad-Hoc Data Cleansing for DataScientists
 - [[https://www.nginx.com/][Nginx]]
 - [[https://about.gitlab.com/][Gitlab]]
 *** Achievements
-- Co-Design and implementation of a Data Lake for organising the
+- Co-Design and implementation of a Data Lake for organizing the
   ingestion and processing locations of OLTP /OLAP  data streams in
-  scala/spark , airflow
-- Audit of all of MyDrive data on S3 for GDPR , currently around 30TB
-- Introduced the best industry standards for python development; via: type-based Python (mypy) better virtualization (pipenv)
+  scala/spark, airflow
+- Audit of all of MyDrive data on S3 for GDPR, currently around 30TB
+- Introduced the best industry standards for python development; via type-based Python (mypy) better virtualization (pipenv)
   and a stronger project framework
-- began to learn some production level terraform for cloud agnostic infrastructure
+- began to learn some production-level terraform for cloud-agnostic infrastructure
 *** Skills Gained
 - AWS Lambda
 - AWS DMS
@@ -190,15 +190,15 @@ Ad-Hoc Data Cleansing for DataScientists
 - Mypy
 - Terraform
 - Boto3
-** July 2016 - April 2017, Self Employed: [[https://www.aimia.com/][Aimia]]
+** July 2016 - April 2017: [[https://www.aimia.com/][Aimia]]
 *** Machine Learning Engineer
 *** Responsibilities
-Working within a new team for monetising Aimia's vast data repository. My responsibilities initially
-were helping migrate a Aimia service to a more robust framework (EMR).
-I then moved into co-designing and developing a platform to capture all the data needed for the machine learning techniques we wished to use.
-This completed, I then developed real-time ETL spark streams for data out of the legacy hive data-warehouse so data could easily be used in a variety of machine learning algorithims.
+Working within a new team for monetizing Aimia's vast data repository. My responsibilities initially
+were helping migrate Aimia's data processing services to a more robust platform (EMR).
+I then moved into co-designing and developing a platform to capture all the data needed for the machine-learning techniques we wished to use.
+This completed, I then developed real-time ETL spark streams for data out of the legacy hive data warehouse so data could easily be used in a variety of machine learning algorithms.
 Choosing parquet because of its schema evolution and performance properties.
-I completed a brief prototype migration to  the [[http://answerrocket.com/][answer rocket]] platform so that some less technical analysts could evaluate natural language analytics.
+I completed a brief prototype migration to the [[http://answerrocket.com/][answer rocket]] platform so that some less technical analysts could evaluate natural language analytics.
 *** Technologies
 - [[https://aws.amazon.com/rds/][AWS]]
   - [[https://aws.amazon.com/ec2/][EC2]]
@@ -210,7 +210,7 @@ I completed a brief prototype migration to  the [[http://answerrocket.com/][answ
   - [[https://aws.amazon.com/redshift/][Redshift]]
   - [[https://aws.amazon.com/rds/][RDS]]
     - [[https://www.postgresql.org/][postgres]]
-  - Data visualisation
+  - Data visualization
     - [[https://matplotlib.org/][Matlplotlib]]
 - [[http://answerrocket.com/][AnswerRocket]]
 - [[https://hive.apache.org/][hive]]
@@ -227,9 +227,9 @@ I completed a brief prototype migration to  the [[http://answerrocket.com/][answ
 *** Achievements
 - Set up Continuous Integration and Unit Testing Infrastructure
 - Helped complete migration from EC2 to EMR for greater resilience to failure
-- Implemented a HQL (Hive SQL) Parser in Haskell to auto generate Spark streaming schema from abstract syntax tree
-- Engineered , Designed and developed real-time streaming for the majority of data-warehouse in to big-data platform in AWS
-- Helped set up continous integration environment
+- Implemented an HQL (Hive SQL) Parser in Haskell to auto-generate Spark streaming schema from the abstract syntax tree
+- Engineered, Designed and developed real-time streaming for the majority of data warehouse into big-data platform in AWS
+- Helped set up the continuous integration environment
 - Implemented word2vec for cluster classification of websites
 - Made a prototype answer rocket database for an evaluation of natural language analytics
 *** Skills Gained
@@ -254,10 +254,10 @@ Design meetings and code quality
 *** Achievements
 - Set up Continuous Integration and Unit Testing Infrastructure
 - developed systems to ingest terabytes of risk profile data into hdfs
-- helped set up continous integration environment
+- helped set up a continuous integration environment
 - helped mentor graduate intern
-- developed comprehensive testing using scalacheck test generation
-- integrated apache flume with Barclays inhouse datawarehouse format
+- developed comprehensive testing using ScalaCheck test generation
+- integrated apache flume with Barclays in-house data warehouse format
 - re-engineered Barclays interface to Solace Messaging in Scala
 *** Skills Gained
 Apache Flume
@@ -268,9 +268,9 @@ Kafka
 ** September 2014 - February 2015, Blinkbox Books
 *** Senior Scala Engineer
 *** Responsibilities
-- Design of and implementation of REST apis, in swagger
+- Design of and implementation of REST APIs, in swagger
 - Automated verification of APIs against swagger in Tests
-- Wrote property based testing code for storage service
+- Wrote property-based testing code for storage service
 - Interfacing with Microsoft Azure Storage Framework with Scala
 - Implementation of Scala code
 - Writing functional tests in Property Based BDD style
@@ -292,7 +292,7 @@ Kafka
 - Azure
 - RabbitMQ AMQP
 *** Achievements
-- Designed , Developed and Deployed first version of REST endpoint for storage agnostic cloud based big data service,
+- Designed, Developed and Deployed the first version of REST endpoint for storage agnostic cloud-based big data service,
  with redundancy across storage providers
 - Improved Scala, Git, Github, REST knowledge, AMQP/RabbitMQ knowledge
 *** Skills Gained
@@ -301,7 +301,7 @@ Kafka
 - Spray.io/ Akka
 ** August 2013 - August 2014, [[https://www.rbs.co.uk/][RBS]]
 *** Infrastructure Developer
-Working with the maintenance and monitoring of a RBS’s big-data risk aggregation platform.
+Working with the maintenance and monitoring of RBS’s big-data risk aggregation platform.
 I used a combination of
 - java 6
 - oracle coherence
@@ -311,8 +311,8 @@ I used a combination of
 - Python
 I am responsible for
 - capacity planning
-- monitoring bandwidth throughput and latency to ensure smooth running of the platform.
-- Bidding for budget and rationalising legacy infrastructure.
+- monitoring bandwidth throughput and latency to ensure the smooth running of the platform.
+- Bidding for budget and rationalizing legacy infrastructure.
 **** Responsibilities
 - Dev Ops
 - Capacity management
@@ -330,7 +330,7 @@ I am responsible for
   - Scala-sbt
   - ScalaCheck
   - Scala-Specs
-**** Skills gained
+**** Skills Gained
 - Bidding
 - Budgeting
 - Coherence
@@ -344,15 +344,15 @@ I am responsible for
 - Scala Specs
 - Python
 - Haskell
-- Devops
+- DevOps
 - Scrum
 **** Achievements
-- learned scrum/agile in depth here, gained in depth knowledge of scrum.
+- learned scrum/agile in depth here, gained in-depth knowledge of scrum.
 - Recently developed a £500k proposal for new infrastructure as a result of a profiling and capacity plan I put in place.
 - Presented plan to the RBS board and won approval for the spend for updating the nodes in a coherence cluster based on profiling,
- coherence clustershock and datagram analysis measurements.
+ coherence cluster shock and datagram analysis measurements.
 - Dev-ops scripts written in Haskell
-- 6 months commercial advanced
+- 6 months of commercial advanced
   - Scala
   - Scalaz
   - ScalaCheck
@@ -386,20 +386,20 @@ I am responsible for
 - Python-Requests
 - BDD
 - JBehave
-- Domain Driven Design
+- Domain-Driven Design
 - Concurrent Programming Functional Programming
 - Low Latency Algorithms
 - Disruptor Pattern
 - Bash Shell Scripting
 **** Achievements
-- Introduced BDD/TDD to team and increased productivity by 20%
+- Introduced BDD/TDD to the team and increased productivity by 20%
 - Designed and implemented the initial framework for IG’s Gateways
 - CHIX, Bats,Bloomberg,CommerzBank, UBS
-- LSE, (Including its winning LSE Millennium Gateway ,IG had no downtime on LSE launch compared to 80% of finance houses)
+- LSE, (Including its winning LSE Millennium Gateway,IG had no downtime on LSE launch compared to 80% of finance houses)
 - Designed and implemented Connectivity for Algorithmic Exposure Hedging System
 - Standardised a way to debug running processes across multiple firewalled SSL zones
-- Introduced BDD and Domain Driven Design to DMA Connectivity team
-**** Skills gained
+- Introduced BDD and Domain Driven Design to the DMA Connectivity team
+**** Skills Gained
 - Trading
 - FX
 - Securities
@@ -414,8 +414,8 @@ I am responsible for
 - git-svn
 ** Apr 2008 – June 2009,[[http://stanjames-betting.com/][Stan James]]
 Working with a top gambling company; Developing a trading platform and desktop application for traders in sports betting.
-I played key roles in technical decision making, agile estimating, planning and retrospectives, as well as implementation, testing, refactoring and maintenance. Initially responsible for the inception of quants module for event pricing and later contributing all other modules.
-*** Skills gained
+I played key roles in technical decision making, agile estimating, planning and retrospectives, as well as implementation, testing, refactoring and maintenance. Initially responsible for the inception of the quants module for event pricing and later contributed all other modules.
+*** Skills Gained
 - Agile Methodology
 - Scrum
 - Agile Estimating and Planning
@@ -423,7 +423,7 @@ I played key roles in technical decision making, agile estimating, planning and 
 - GWT
 - Java Swing
 - Selenium
-- Fitnesse
+- Fitness
 - Oracle Coherence
 - Hibernate
 - Spring
@@ -453,23 +453,23 @@ I played key roles in technical decision making, agile estimating, planning and 
 **** Software Research paper:
 Detecting Faces in Images a Survey of different approaches
 ** 1994-1997 University of Birmingham
-*** 2.i B.Sc. Computer Science & Artificial Intelligence
+*** 2.I B.Sc. Computer Science & Artificial Intelligence
 **** Course Content:
 - Concurrent and Object Orientated Programming in C++
 - TCP-IP
 - UNIX real-time shared Memory and Semaphores
 - Computer Graphics
 - Advanced Interface Design
-- Human Computer Interaction
+- Human-Computer Interaction
 - Relational Database Theory
 - HTML Design / CGI Programming
 - Expert Systems
 - Neural Networks
 **** Software Research paper:
-Melody Composition using Web based Genetic Algorithms.
+Melody Composition using Web-based Genetic Algorithms.
 ** 1992-1994 St Francis Xavier College
 3 A-levels including A in Computer Science
 ** 1987-1992 John Paul Secondary School
 9 GCSE’s Grade A-C
 
-#  LocalWords:  Databricks DeltaLake DeltaLive PPAs PPA Kubernetes
+#  LocalWords:  Databricks DeltaLake DeltaLive PPA PPA Kubernetes
