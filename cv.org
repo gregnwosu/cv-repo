@@ -8,13 +8,16 @@ I often pioneer new approaches for teams to get around issues and find
 approaches to issues that most see as unsurmountable.
 I'm friendly and fit in, I bring up the quality of the less
 experienced and love to learn from anyone that I can.
-
+I have good knowledge of Java , Python , Scala, and Haskell, SQL, bash
+shell scripting.
+I have experience with different cloud platforms GCP, Azure and AWS.
+I love learning new things and have a passion for trading.
 I have deep knowledge of Agile/Scrum, and I've been on many teams in the
-past and draw on this experience of what works to synthesize a way
+past and draw on this experience of what works to figure out a way
 forward when things get difficult.
 
 I am [[https://www.linkedin.com/feed/update/urn:li:activity:6073160702284091392][certified]] in machine learning from Stanford University’s
-[[https://www.coursera.org/learn/machine-learning][course]]. I’m a [[https://s3-us-west-2.amazonaws.com/udacity-printer/production/certificates/4032c6ab-8874-4854-abfd-3fc33dd75e07.pdf][graduate]] of [[https://classroom.udacity.com/nanodegrees/nd101] Udacity’s Deep Learning Foundation
+[[https://www.coursera.org/learn/machine-learning][course]]. I’m a [[https://s3-us-west-2.amazonaws.com/udacity-printer/production/certificates/4032c6ab-8874-4854-abfd-3fc33dd75e07.pdf][graduate]] of  [[https://classroom.udacity.com/nanodegrees/nd101][Udacity’s Deep Learning Foundation
 Course]] and now I'm halfway through  the [[https://learn.udacity.com/nanodegrees/nd893/][Udacity’s Deep
 Reinforcement Learning NanoDegree]]. My goal is to continue in the position of being
 adept in cutting-edge machine learning techniques and data science together with my current
@@ -57,15 +60,15 @@ Databricks DeltaLive, Databricks Auto-loader
 
 - (re)Wrote [[https://app.powerbi.com/groups/me/apps/ab5daed7-88c8-4b35-9691-71bb9e2d751c/reports/22a243ae-1a44-4ec7-b9f3-5111615a3c2b/ReportSection?ctid=db1e96a8-a3da-442a-930b-235cac24cd5c&bookmarkGuid=Bookmark858b0d79a416a133d321][a reconciliation tool to reconcile Power Purchase Contracts]] (PPAs)
 between Shell and a third-party broker within the first 6 months of joining. Currently, the system is used directly by traders on its newly formed power
-trading desk. The system provides near real-time tracking of PPAs 
+trading desk. The system provides near real-time tracking of PPAs
 from broker order books through shell middle-ware and into the Shell
 order books.  The system achieved 4 x9's up-time and became so reliable it was moved to a "run and
 support" model. The system includes data-quality analysis, slicers and
 dice controls, summaries, drill-down and graphical visualizations.
 
 - The existing system for transferring PPAs from the broker to Shell
-  was slow and unreliable. Delivered [[https://adb-8189235268511358.18.azuredatabricks.net/?o=8189235268511358#notebook/4039834138178088/dashboard/1665125115797297/present][a real-time streaming support system Inter-book Transfer Tool
-for transferring trades]]
+  was slow and unreliable. Delivered [[https://adb-8189235268511358.18.azuredatabricks.net/?o=8189235268511358#notebook/4039834138178088/dashboard/1665125115797297/present][a real-time streaming support
+  system Inter-book Transfer Tool for transferring trades]]
 between an external PPA broker and Shell. The system
 generates a VWAP curve from energy price forecast data and executes orders
 to cover predicted liabilities of third-party renewable energy contracts. The system
@@ -75,6 +78,9 @@ time in the past.
 The new Power Purchase Inter-Book transfer tool leverages DeltaLive and Databricks auto
 loader for real-time streaming updates, so that traders can
 ensure timely transfer of PPAs to the Shell order book.
+*** Qualifications
+  - Mennta [[https://www.menntalive.com/product?catalog=ITT][Introduction To Trading]]
+  - Mennta [[https://www.menntalive.com/product?catalog=ICD][Introduction To Commodity Derivatives]]
 
 ** March 2021 - September 2021 : [[https://www.gousto.co.uk/][Gousto]]
 *** Responsibilities
@@ -313,7 +319,7 @@ I am responsible for
 - capacity planning
 - monitoring bandwidth throughput and latency to ensure the smooth running of the platform.
 - Bidding for budget and rationalizing legacy infrastructure.
-**** Responsibilities
+*** Responsibilities
 - Dev Ops
 - Capacity management
 - Infrastructure Bidding.
@@ -330,7 +336,7 @@ I am responsible for
   - Scala-sbt
   - ScalaCheck
   - Scala-Specs
-**** Skills Gained
+*** Skills Gained
 - Bidding
 - Budgeting
 - Coherence
@@ -346,7 +352,7 @@ I am responsible for
 - Haskell
 - DevOps
 - Scrum
-**** Achievements
+*** Achievements
 - learned scrum/agile in depth here, gained in-depth knowledge of scrum.
 - Recently developed a £500k proposal for new infrastructure as a result of a profiling and capacity plan I put in place.
 - Presented plan to the RBS board and won approval for the spend for updating the nodes in a coherence cluster based on profiling,
@@ -358,7 +364,7 @@ I am responsible for
   - ScalaCheck
 ** Jun 2010 – September 2013, [[https://www.ig.com/uk][IG Group]]
 *** Direct Market Access & Smart Order Routing Java Developer
-**** Responsibilities
+*** Responsibilities
 - General FIX Connectivity
 - Instrument Downloads and Trading
 - Designed coded and accredited IG trading Gateways to be compliant with external exchange trading protocols.
@@ -369,7 +375,7 @@ I am responsible for
   - Fault Diagnosis and SOR Order Resolution
 - certification with external companies
 - Last line of support for trading gateways and connectivity issues
-**** Technologies
+*** Technologies
 - Java 6
 - Java 7
 - LMAX disruptor
@@ -391,7 +397,7 @@ I am responsible for
 - Low Latency Algorithms
 - Disruptor Pattern
 - Bash Shell Scripting
-**** Achievements
+*** Achievements
 - Introduced BDD/TDD to the team and increased productivity by 20%
 - Designed and implemented the initial framework for IG’s Gateways
 - CHIX, Bats,Bloomberg,CommerzBank, UBS
@@ -399,7 +405,7 @@ I am responsible for
 - Designed and implemented Connectivity for Algorithmic Exposure Hedging System
 - Standardised a way to debug running processes across multiple firewalled SSL zones
 - Introduced BDD and Domain Driven Design to the DMA Connectivity team
-**** Skills Gained
+*** Skills Gained
 - Trading
 - FX
 - Securities
