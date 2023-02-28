@@ -9,21 +9,25 @@ I’ve some commercial experience in machine learning but the majority
 of my experience is from [[https://github.com/gregnwosu][personal projects]] and online courses.
 I am [[https://www.linkedin.com/feed/update/urn:li:activity:6073160702284091392][certified]] in machine learning from Stanford University’s
 [[https://www.coursera.org/learn/machine-learning][course]]. I’m a [[https://s3-us-west-2.amazonaws.com/udacity-printer/production/certificates/4032c6ab-8874-4854-abfd-3fc33dd75e07.pdf][graduate]] of [[https://classroom.udacity.com/nanodegrees/nd101] Udacity’s Deep Learning Foundation
-Course]] and now I'm half way through  the [[https://www.udacity.com/course/self-driving-car-engineer-nanodegree--nd013][Udacity’s Self Driving Car
-NanoDegree]]. My goal is to achieve the position of being
-adept in machine learning and data science together with my current
+Course]] and now I'm half way through  the [[https://learn.udacity.com/nanodegrees/nd893/][Udacity’s Deep
+Reinforcement Learning NanoDegree]]. My goal is to continue in the position of being
+adept in cutting edge machine learning techniques and data science together with my current
 skills of big data engineering and ETL.
 * Current Interests
 My current interests are almost exclusively in FP, including:
+- Algo Trading, wrote an a home project that analyses candles and recommends
+  trades based on technical analysis.
+- Arbitrage: wrote a system that uses , bellman ford algorithm to find
+  negative weight cycles in currencies so I can make money by
+  transferring money between currencies at my bank.
 - Intermediate Advanced [[https://github.com/gregnwosu/haskellbook][Haskell programming]]
-- mypy
-- deep learning
+- deep reinforcement learning.
 - [[https://bartoszmilewski.com/2014/10/28/category-theory-for-programmers-the-preface/][category theory]]
-- Bayesian Methods for Data Analytic.
-- Machine Learning , LSTM Generative Nets.
-- Parsec like Parsing
+- Bayesian Methods for Data Analytics.
+- Machine Learning , started playing with Large Language Models
 Other hobbies include:
 - Cycling
+- Callisthenics
 - studying civil litigation and human rights law
 - Zen Meditation.
 - I have also trained to teach adults and am a mentor to children learning to code at CoderDojo.
@@ -31,6 +35,102 @@ Other hobbies include:
   :PROPERTIES:
   :CUSTOM_ID: commercial experience
   :END:
+** October 2021 - Present : [[http://shell.com][Shell]]
+*** Responsibilities
+- Front Office , Power Advanced Capture Engine Reconciliation  Technical
+Lead Engineer, Designer , Developer
+- Power Purchase Agreement Interbook Transfer Tool Lead Engineer,
+  Designer, developer
+*** Technologies
+Azure Data Factory, Azure Devops , Databricks , Pyspark , Databricks DeltaLake,
+Databricks DeltaLive, Databricks Autoloader
+*** Achievements:
+- (re)Wrote a reconcillation tool to reconcile Power Purchase Contracts (PPAs)
+between Shell and a third party broker within the first 6 months of joining. Currently the system is used directly by traders on its newly formed power
+trading desk. The system provides near realtime tracking of PPAs as
+from broker order books through shell middleware and into the shell
+order books.  The system achieved 4 x9's uptime and became so reliable it was moved to a "run and
+support" model. The system includes data-quality analysis, slicers and
+dice controls, summarys
+drilldown and graphical visualisations.
+
+- The existing system for transferring PPAs from the broker to shell
+  was slow and unreliable. Delivered a real time streaming support system Interbook Transfer Tool
+for transferring trades
+between an external PPA broker and Shell. The system
+system generates a VWAP curve from energy price forecast data and executes orders
+to cover predicted liabilities of third party renewable energy contracts. The system
+uses latest databricks DeltaLake format for full audit coverage
+overtime. It is possible to view query the state of the system at any
+time in the past.
+The new Power Purchase Interbook transfer tool leverages DeltaLive and Databricks auto
+loader for real time streaming updates, so that traders can
+ensure timely transfer of PPAs to the Shell OrderBook.
+
+** March 2021 - September 2021 : [[https://www.gousto.co.uk/][Gousto]]
+*** Responsibilities
+Senior Data Engineer.
+*** Technologies
+AWS DMS, AWS Glue, AWS EC2, AWS EMR, AWS Cloudformation, Python, Databricks
+Spark, Databrick Delta Lake,
+*** Airflow, Kubernetes
+*** Achievements:
+- Wrote a proof of concept to show how to attach hooks to spark streams
+in python, to enable automatically alerting on ingestion failure of a
+streaming process.
+-- Proposed two ways , one of which used the sparks internal python java bridge.
+- introduced BDD to help BA’s verify business logic.
+- Used AWS DMS Service to safely migrate data from databases into AWS S3
+storage in realtime.
+** March 2019 - March 2021 : [[http://shell.com][Shell]]
+*** Responsibilities
+**** Part of the SWAT (SoftWare /Analytics Team) team in agile hub tasked with improving the architectural approach
+and development of extracting business value (monetising) of data from under achieving shell projects. Projects usually exist for 5
+- 7 weeks. Projects typically deliver technical advisory reports and a proof of concept.
+**** Cargo Tracking, wrote software for front desk trading analysts that provides consensus
+on the location of crude and distillates from various providers.
+*** Technologies
+Helm Charts, pyspark, Azure Data Factory, Azure Cosmos, AKS,
+Airflow, Kubernetes
+*** Achievements:
+- Led a SWAT team to increase performance of pricing reports, we managed to render a
+report in 15 seconds that was previously taking 15 minutes.
+Deployed proof of concept airflow pipeline in Kubernetes that also has jobs that run in
+AKS
+- mentored junior members in development practice , github, unit testing , code quality.
+- trained remote developers in Github, Git
+- wrote a data pipeline that ingests from google sheets which enabled
+  business analysts to collaborate on cargo tracking reference
+- introduced the team to event-driven architecture, which resulted in
+  10x speed of data processing.
+- used graph algorithms (using networkx in python ) to enable
+visualisation and therefore aid simplify  complex
+decision paths in business logic
+introduced BDD to help BA’s verify business logic.
+** September 2018 – March 2019: [[http://quantexa.com][Quantexa]]
+*** Senior Data Engineer
+*** Responsibilities
+Mentoring architecture and quality refactoring of Quantexa’s award winning analysis
+and fraud detection platform. A team member responsible for accelerating the code
+
+quality of Quantexa implementations as they are rolled out onto banks; my duties
+include code reviews of client implementations and code quality and improvement of
+the core product.
+*** Technologies
+- GCP
+- Spark
+- Frameless
+- Scala
+- Spark testing framework
+- Cats
+- ScalaCheck
+- Gitlab
+- typesafe config
+*** Achievements
+- Redesign and refactoring of the core scoring framework.
+- Introduced Property based testing using ScalaCheck to cover bring
+test coverage over 90%
+- Implementation of typesafe config for reducing release errors due to misconfiguration
 ** June 2017 - Present: [[http://mydrivesolutions.com][MyDrive]]
 *** Senior Data Engineer
 **** Responsibilities
@@ -132,7 +232,7 @@ Nginx
 Docker
 Kafka
 Bayesian Analysis (PyMC)
-** April 2015 - June 2016, Self Employed: Barclays Capital
+** April 2015 - June 2016, Self Employed: [[https://www.cib.barclays/][Barclays Capital]]
 *** Big Data ETL Engineer
 **** Responsibilities
 Ingesting Risk Data into Barclays BigData System
@@ -192,7 +292,7 @@ Kafka
 - AMQP/ RabbitMQ
 - REST
 - Spray.io/ Akka
-** August 2013 - August 2014, RBS
+** August 2013 - August 2014, [[https://www.rbs.co.uk/][RBS]]
 *** Infrastructure Developer
 Working with the maintenance and monitoring of a RBS’s big-data risk aggregation platform.
 I used a combination of
@@ -249,7 +349,7 @@ I am responsible for
   - Scala
   - Scalaz
   - ScalaCheck
-** Jun 2010 – September 2013, IG Group
+** Jun 2010 – September 2013, [[https://www.ig.com/uk][IG Group]]
 *** Direct Market Access & Smart Order Routing Java Developer
 **** Responsibilities
 - General FIX Connectivity
@@ -305,7 +405,7 @@ I am responsible for
 - FIX5SP2
 - Cameron
 - git-svn
-** Apr 2008 – June 2009 Java Developer, Stan James
+** Apr 2008 – June 2009,[[http://stanjames-betting.com/][Stan James]]
 Working with a top gambling company; Developing a trading platform and desktop application for traders in sports betting.
 I played key roles in technical decision making, agile estimating, planning and retrospectives, as well as implementation, testing, refactoring and maintenance. Initially responsible for the inception of quants module for event pricing and later contributing all other modules.
 *** Skills gained
